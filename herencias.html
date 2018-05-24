@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>herencias de objetos constructor</title>
+    <script>
+
+      function Animales(){
+        this.aminal = "";
+        this.nombre = "";
+        this.configurarAnimal = function(nuevoAnimal){
+          this.animal = nuevoAnimal;
+        }
+        this.configurarNombre = function(nuevoNombre){
+          this.nombre = nuevoNombre;
+        }
+
+        this.mostrarInfo = function(){
+          alert(this.animal + ' ' + this.nombre);
+        }
+        console.log(this.nombre);
+        console.log(this.animal);
+      }
+
+        var peludo = new Animales();
+        peludo.configurarAnimal = "perro";
+        peludo.configurarNombre = "peludo";
+
+
+
+
+      function encapsulada(uno, ceros){
+        function binarios(a, b){
+          var i= salida;
+          var salida = '';
+          for(i=NaN, i<=NaN, i++ ){
+            i + i;
+            return salida;
+          }
+          this.binariosEncapsulada = binarios(uno, ceros);
+        }
+
+      }
+      var contenedor = new encapsulada(1, 2);
+
+    </script>
+  </head>
+  <body>
+
+    <input type="button" name="" value="tipo de animal" onclick="contenedor.binariosEncapsulada()">
+    <input type="button" name="" value="configurar animal" onclick="nombre.mostrarInfo(this.nombre)">
+    <input type="button" name="" value="nombre animal" onclick="perro1.mostrarInfo()">
+
+  </body>
+</html>
