@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>objetos con funciones crear objetos</title>
+    <script>
+
+      unObjeto = new Object();
+      unObjeto.info = 'ok';
+
+      function funcOk(){
+        document.write(this.info);
+      }
+
+
+      unObjeto.aja = funcOk;
+
+    </script>
+  </head>
+  <body>
+
+        <input type="button" name="" value="decir ok" onclick="unObjeto.aja()">
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>practicando objetos y metodos info</title>
+
+
+    <script>
+        function GranObjeto(color){
+          this.color = 'verde';
+          this.mostrarInfo = function(){
+            alert(this.color);
+          }
+          this.constructorInfo = function(nuevoColor){
+            this.color = nuevoColor;
+          }
+
+        }
+        var color1 = new GranObjeto(this.color);
+        var color2 = new GranObjeto(this.color);
+    </script>
+  </head>
+  <body>
+    <input type="button" name="" value="presioname para ver la magia" onclick="color1.mostrarInfo()">
+
+    <input type="button" name="" value="presioname para ver el constructor en accion" onclick="color2.constructorInfo('ok nuevo color')">
+  </body>
+</html>

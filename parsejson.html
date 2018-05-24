@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title id="titulo">parseando json</title>
+    <script>
+
+      function mapear(){
+        var titulo = document.getElementById('titulo').innerHTML = "ok se mapeo";
+      }
+
+
+      mapeando = new Object();
+      mapeando.ok = 'bueno talvez no';
+      mapeando.si = 'bueno talvez si';
+
+      mapeando.info = function(){
+        var ti = document.getElementById('titulo').innerHTML = this.ok;
+      }
+      //intente hacer una constructora a partir de esto pero ya vemos que
+      //la constructora funciona basicamente mapeando cosas a partir
+      //del id del titulo nunca va a lanzar el alert
+      var constructora = new mapear();
+      var gabriel = 'gabrielote';
+      mapear.prototype.proto = function () {
+        alert(this.si);
+      };
+
+       titulos = new Object();
+       titulos.alerta = document.getElementById('titulo');
+       titulos.info = function(){
+       alert(titulos.alerta);
+}
+    </script>
+  </head>
+  <body>
+
+<input type="button" name="" value="mapear titulo" onclick="mapear()">
+<input type="button" name="" value="mapear info" onclick="mapeando.info()">
+<input type="button" name="" value="mapear titulo" onclick="titulos.info()">
+
+  </body>
+</html>

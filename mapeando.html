@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>manipular el dom con array childnodes[0]</title>
+
+  </head>
+  <body>
+
+    <h1>hola esto es para leer los nodos</h1>
+    <ol id="lista">
+      <li>este es un elemento ordenado</li>
+      <li>este es otro elemento ordenado</li>
+      <li>y este el ultimo elemento ordenado</li>
+      <li></li>
+    </ol>
+    <p>terminando esto antes de las 9
+    para ver el curso completamente</p>
+      <p id="demo"></p>
+    <input type="button" name="" value="mostrar" onclick="mifuncion()">
+
+    <script>
+      function mifuncion() {
+        var listilla = document.getElementById("lista").lastChild.innerHTML;
+        document.getElementById("demo").innerHTML = listilla;
+      }
+    </script>
+
+  </body>
+</html>

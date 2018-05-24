@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>reemplazando nodos</title>
+    <style>
+      .clasesita{
+        color:blue;
+
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="id1" onload="atributos()">
+      <p id="cosa1"> bienvenidos</p>
+      <a id="cosa2"> todo aqui se muestra complacientemente</a>
+      <input type="button"  id="boton" name="" value="cosas" onclick="cabezera()">
+      <input type="button"  id="boton1" name="" value="agrega color" onclick="atributos()">
+
+    </div>
+    <script>
+
+      cabezera = function(){
+        var elementonuevo = document.createElement("h2");
+        var nuevoTexto = document.createTextNode("este texto fue anadido correctamente");
+        elementonuevo.appendChild(nuevoTexto);
+
+        var div = document.getElementById("id1");
+        var parrafoViejo = document.getElementById("cosa1");
+        div.replaceChild(elementonuevo, parrafoViejo);
+
+
+
+
+      }
+
+      function atributos(){
+
+
+        document.getElementsByTagName("p")[0].setAttribute("class", "clasesita");
+        document.getElementById("cosa2").setAttribute("href", "http://www.google.com/");
+        document.getElementsByTagName("h2")[0].setAttribute("class", "clasesita");
+
+
+      }
+
+    </script>
+  </body>
+</html>
