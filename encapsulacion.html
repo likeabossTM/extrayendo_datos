@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>encapsulacion de funciones</title>
+    <script>
+
+      function constructora(nombre){
+        this.nombre = nombre;
+        this.mostrarinfo = function(){
+          alert(this.nombre);
+        }
+
+      }
+      var alonso1 = 'alonso1';
+      var nombresito = new constructora(alonso1);
+      constructora.prototype.otroAlonso = function () {
+        alert(this.nombre);
+      };
+
+      saludame = new Object();
+      saludame.info = alonso1;
+
+      saludame.otraInfo = function(){
+        alert(this.info);
+      }
+
+      saludame.metodoNuevo = saludame.otraInfo;
+
+    </script>
+  </head>
+  <body>
+<input type="button" name="" value="tocame" onclick="nombresito.mostrarinfo()">
+<input type="button" name="" value="retocame" onclick="nombresito.otroAlonso()">
+<input type="button" name="" value="requetetocame" onclick="saludame.metodoNuevo()">
+  </body>
+</html>
