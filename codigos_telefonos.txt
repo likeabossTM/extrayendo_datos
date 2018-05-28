@@ -1,0 +1,196 @@
+*#06 # - Muestra el del teléfono IMEI El código IMEI (International Mobile Equipment Identity) es un código pregrabado en cada terminal y su función principal es identificar a los móviles a nivel mundial. Podríamos decir que el código IMEI cumple la misma función que los documentos de identidad en las personas, las identifican y registran para poder mantener un control. En la mayoría de los casos éste código consta de 15 cifras. Es importante conocer el código para poder hacer uso de las diversas utilidades que tiene.
+*#0*# - Menú de información
+*#8736364# - Acceso al menú de actualizaciones OTA
+*#*#4636#*#* - Menú de información
+*#*#34971539#*#* - Información del hardware de la cámara
+*#*#1111#*#* - Versión de software TLC
+*#*#1234#*#* - Versión de software PDA
+*#12580*369# - Detalles del software/hardware
+*#7465625# - Muestra el estado de bloqueo del dispositivo
+* 7465625 * 638 * Code # = Habilita el bloqueo de red
+# 7465625 * 638 * Código # = Desactiva el bloqueo de red
+* 7465625 * 782 * Código # = habilita el bloqueo de subconjuntos
+# 7465625 * 782 * Código # = Desactiva el bloqueo de subconjuntos
+* 7465625 * 77 * Código # = habilita el bloqueo SP
+# 7465625 * 77 * Código # = Desactiva el bloqueo SP
+* 7465625 * 27 * Code # = Habilita el bloqueo de CP
+# 7465625 * 27 * Código # = Desactiva el bloqueo de CP
+* 7465625 * 746 * Código # = Habilita el bloqueo de SIM
+# 7465625 * 746 * Código # = Desactiva el bloqueo de SIM
+* 7465625 * 228 # = Activa bloqueo ON
+# 7465625 * 228 # = Activa bloqueo OFF
+* 7465625 * 28638 # = Bloqueo automático de red ON
+# 7465625 * 28638 # = Bloqueo automático de red OFF
+* 7465625 * 28782 # = Bloqueo de subconjuntos automático ON
+# 7465625 * 28782 # = Bloqueo del subconjunto automático OFF
+* 7465625 * 2877 # = Bloqueo automático del SP ON
+# 7465625 * 2877 # = Bloqueo automático de bloqueo
+* 7465625 * 2827 # = Bloqueo automático de CP ON
+# 7465625 * 2827 # = Bloqueo de CP automático OFF
+* 7465625 * 28746 # = Bloqueo automático de SIM en ON
+# 7465625 * 28746 # = Bloqueo automático SIM Bloqueado OFF
+
+*#*#232338#*#* - Muestra la dirección MAC del dispositivo Una dirección MAC (siglas en inglés de Media Access Control, "Control de acceso al medio") es un código que sirve para identificar el/los adaptador(es) de red instalado(s) en tu computador. La dirección se compone de 6 pares de caracteres separados por dos puntos. Para encontrar tu dirección MAC en cualquier sistema, usa uno de los siguientes métodos. En las redes de computadoras, la dirección MAC (siglas en inglés de Media Access Control) es un identificador de 48 bits (6 bloques hexadecimales) que corresponde de forma única a una tarjeta o dispositivo de red. Se conoce también como dirección física, y es única para cada dispositivo. Está determinada y configurada por el IEEE (los últimos 24 bits) y el fabricante (primeros 24 bits) utilizando el organizationally unique identifier. La mayoría de los protocolos que trabajan en la capa 2 del modelo OSI usan una de las tres numeraciones manejadas por el IEEE: MAC-48, EUI-48, y EUI-64, las cuales han sido diseñadas para ser identificadores globalmente únicos. No todos los protocolos de comunicación usan direcciones MAC, y no todos los protocolos requieren identificadores globalmente únicos.
+*#*#232339#*#* - Test de Wi-Fi
+*#*#2663#*#* - Muestra la versión de pantalla táctil
+*#*#2664#*#* - Test de pantalla táctil
+*#*#3264#*#* - Tipo e información de la memoria RAM
+*#32489# - Datos de la codificación
+*#*#232337#*# - Dirección Bluetooth
+*#7353# - Acceso al menú de pruebas rápidas
+*#*#8255#*#* - Muestra el estado de Google Talk
+*#*#4986*2650468#*#* - Muestra la información de PDA y hardware
+*#*#2222#*#* - Muestra información de FTA
+*#*#44336#*#* - Muestra información de Firmware y Changelog
+*#0589# - Test del sensor de proximidad
+*#*#273282*255*663282*#*#* - Backup de los archivos personales del usuario
+*2767*4387264636* - Ver el código de producto
+*#*#197328640#*#* - Modo de prueba
+*#12580*369* - Información sobre hardware y software
+*#*#0842#*#* - Test de brillo y vibración
+*#*#232331#*#* - Test de Bluetooth
+*#0782# - Test del reloj
+*#*#7262626#*#* - Modo Seguro o Modo Test
+*#*#1472365#*#* - Test de la unidad GPS
+*#*#1575#*#* - Test completo de GPS
+*#*#0283#*#* - Test de Loopback
+*#*#0*#*#* - Test de LCD
+*#*#0289#*#* - Test de audio
+*#*#0588#*#* - Test de sensor de aproximación
+*#9090# - Ajustes de diagnóstico
+*#301279# - Ajustes de HSDPA y HSUPA HSUPA (High-Speed Uplink Packet Access ), que es un protocolo de acceso de datos para redes de telefonía móvil con alta tasa de transferencia de subida (de hasta 5.76 Mbit/s teóricos, prácticos se han conseguido en pruebas 1,4 Mbit/s). Viene a completar al HSDPA, su combinación es denominada HSPA (High Speed Packet Access).
+*#872564# - Ajustes de entrada de USB
+*#9900# - System Dump
+##778 - (y botón verde de llamada) Mostrar el menú EPST
+*#746# - Modo depuración
+*#3282*727336*# - Estadísticas de uso de datos
+*#273283*255*3282*# - Crear menú de datos
+*#0808# - Servicios USB
+
+
+*#9090# - Activar modo servicio
+*#0228# - Comprobar estado de la batería
+*#34971539# - Verificar funciones de firmware de la cámara
+*#1234# - Comprobar la versión de software utilizado
+*#7284# - Verificar el menú de Factory Keystring
+*#12580*369# - Informaciones sobre el hardware y el software
+*#0011# - Acceso al menú de servicio
+*#*#7378423#*#* - Información sobre SO, operadora y opciones de análisis
+*#*#4636#*#* - Acceso a la información de la batería
+*2767*3855# - Restablecimiento de fábrica
+*#*#273283*255*663282*#*#* - Para un backup rápido de los archivos media
+*#*#0673#*#* ou *#*#0289#*#* - Para probar el audio de la línea Xperia
+*#*#232337#*#* - Muestra la dirección de los dispositivos Bluetooth alrededor
+##7764726 - MenúDroid oculto Motorola
+*#7780# - Restablecer la configuración del trabajo
+*2767*3855# - Borrar datos y restablecer
+*#*#7594#*#* - Finalizar llamada
+*#*#8351#*#* - Muestra números de teléfono marcados
+#*#8350#*#* - Desactiva el modo registro de marcación
+*2767*3855# - Restauración a los ajustes fábrica CON borrado de datos
+*#*#7780#*#* - Restauración a los ajustes fábrica SIN borrado de datos
+
+
+
+
+
+GSM códigos secretos
+
+Cambie PIN - ** 04 *, luego ingrese el PIN antiguo y dos veces un PIN nuevo.
+Cambie PIN2 - ** 042 *, luego ingrese el PIN2 antiguo y el doble PIN2 nuevo.
+Desbloquear la tarjeta SIM (PIN) - ** 05 * luego ingrese el PUK y el nuevo PIN dos veces Desbloquee la tarjeta SIM (PIN2) - ** 052 *, luego ingrese el PUK2 y el nuevo PIN2 dos veces
+
+Desvío de llamadas (tiene que pedir el servicio del operador)
+## 002 # - Cancelar todos los desvíos
+## 004 # - Cancelar todos los reenvíos de llamadas condicionales
+** 004 * número de teléfono # - Activar todo el reenvío de llamadas condicional
+
+Desvío de llamadas incondicional (Desvío de llamadas todo)
+### 21 - Desactivar y desactivar
+# 21 # - Desactivar
+** 21 * número de teléfono # - Habilitar y activar
+* 21 # - Activar
+* # 21 # - Compruebe la condición
+
+Desvío en caso de "no respuesta"
+### 61 - Desactivar y desactivar
+# 61 # - Desactivar
+** 61 * número de teléfono # - Activar y activar
+* 61 # - Activar
+* # 61 # - Compruebe la condición
+
+Ajuste del tiempo de llamada hasta que la opción de desvío de llamadas "sin respuesta"
+Al instalar el reenvío en "sin respuesta" puede ajustar el tiempo en segundos que el sistema le permite enganchar. Si durante este tiempo no ha recogido el teléfono, la llamada entrante se desviará.
+Ejemplo: - ** 61 * + ** 709576617601234 # 30 - establecer el tiempo de espera de 30 segundos
+Establecer tiempo de espera - ** 61 * Número de teléfono ** N #, N = 5..30 (segundos)
+Quitar la instalación anterior - ## 61 #
+
+Desvío en caso de "no disponible"
+# ## 62 - Desactivar y desactivar
+# 62 # - Desactivar
+** 62 * número de teléfono # - Activar y activar
+* 62 # - Activar
+* # 62 # - Compruebe la condición
+
+Desvío en caso de "ocupado"
+### 67 - Desactivar y desactivar
+# 67 # - Desactivar
+** 67 * número de teléfono # - Habilitar y activar
+* 67 # - Activar
+* # 67 # - Compruebe la condición
+
+Bloqueo de llamadas (tiene que pedir el servicio del operador)
+Cambiar la contraseña para todas las prohibiciones (predeterminado - 0000)
+- ** 03 * 330 * contraseña antigua * nueva contraseña * nueva contraseña #
+
+
+
+Salvo todas las llamadas salientes
+** 33 * contraseña # - Activar
+# 33 * contraseña # - Desactivar
+* # 33 # - Verificar la condición
+
+Salvo todas las llamadas
+** 330 * contraseña # - Activar
+# 330 * contraseña # - Desactivar
+* # 330 # - Compruebe la condición
+
+Bloqueo de todas las llamadas internacionales salientes
+** 331 * contraseña # - Activar
+# 331 * contraseña # - Desactivar
+* # 331 # - Compruebe la condición
+
+Salvo todas las llamadas salientes
+** 333 * contraseña # - Activar
+# 333 * contraseña # - Desactivar
+* # 333 # - Verificar la condición
+
+Bloqueo de todas las llamadas entrantes
+** 353 * contraseña # - Activar
+# 353 * contraseña # - Desactivar
+* # 353 # - Compruebe la condición
+
+Bloquear todas las llamadas entrantes en roaming
+** 351 * contraseña # - Activar
+# 351 * contraseña # - Desactivar
+* # 351 # - Compruebe la condición
+
+Llamada en espera (tiene que pedir el servicio del operador)
+* 43 # - Activar
+# 43 # - Desactivar
+* # 43 # - Compruebe la condición
+
+Transferir su número de teléfono (Anti ANI)
+# 30 # número de teléfono - Bloque
+* 30 # número de teléfono - Permitir
+* # 30 # - Compruebe la condición
+
+Mostrar número de teléfono de la persona que llama (ANI)
+# 77 # - Bloque
+* 77 # - Permitir
+* # 77 # - Verificar la condición
+
+Menú inteligente
+GP - * 111 #
+Rob - * 140 #
+Banglalink - * 789 #
